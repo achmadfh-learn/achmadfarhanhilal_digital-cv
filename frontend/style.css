@@ -1,0 +1,262 @@
+/* === HERO SECTION === */
+#hero {
+  background: linear-gradient(135deg, #0b3954, #1d70a2);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  max-width: 800px;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.hero-text h1 {
+  font-size: 2.2rem;
+  margin: 10px 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-btn {
+  display: inline-block;
+  background: white;
+  color: #0b3954;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #f1f1f1;
+  transform: translateY(-3px);
+}
+
+
+/* === GLOBAL STYLES === */
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  margin: 0;
+  background: linear-gradient(180deg, #f9fbfd 0%, #eef3f9 100%);
+  color: #222;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* === NAVBAR === */
+nav {
+  background-color: #0b3954;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #2b6cb0;
+  color: #eaf4ff;
+}
+
+/* === SECTION LAYOUT === */
+section {
+  padding: 60px 12%;
+  animation: fadeIn 0.8s ease;
+}
+
+section:nth-child(even) {
+  background-color: #ffffff;
+}
+section:nth-child(odd) {
+  background-color: #f4f8fc;
+}
+
+/* === TITLES === */
+h2 {
+  color: #0b3954;
+  font-size: 1.8rem;
+  border-left: 6px solid #00b4d8;
+  padding-left: 10px;
+  margin-bottom: 25px;
+}
+
+/* === CARD === */
+.card {
+  background: #fff;
+  border-left: 6px solid #00b4d8;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* === SKILLS === */
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.skill-list li {
+  background: linear-gradient(135deg, #00b4d8, #0077b6);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: center;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.skill-list li:hover {
+  background: linear-gradient(135deg, #0077b6, #0096c7);
+  transform: scale(1.05);
+}
+
+/* === FOOTER === */
+footer {
+  background: #0b3954;
+  color: #eaf4ff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 8%;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+  nav li {
+    margin: 8px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* === ANIMATION === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === Responsive Design for Mobile === */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 8px 0;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .skill-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  h1 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  #personal img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-list {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 15px;
+  }
+}

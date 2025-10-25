@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "Website pribadi untuk menampilkan karya."
+  },
+  {
+    "id": 2,
+    "title": "API Service",
+    "description": "REST API sederhana menggunakan Node.js dan Express."
+  }
+]
