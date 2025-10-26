@@ -1,15 +1,14 @@
 {
-  "name": "portfolio-api",
+  "name": "portfolio-cv-api",
   "version": "1.0.0",
-  "description": "Portfolio website with API",
-  "main": "backend/app.js",
+  "description": "Portfolio and CV website using Node.js API (Vercel deploy)",
+  "main": "api/cv.js",
   "scripts": {
-    "start": "node backend/app.js"
+    "start": "vercel dev"
   },
-  "author": "Farhan",
+  "author": "Achmad Farhan Hilal",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.21.2"
   }
 }
