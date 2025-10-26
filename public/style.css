@@ -17,6 +17,21 @@
   gap: 25px;
   max-width: 800px;
 }
+#snake-animation {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+
+#hand-animation {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 
 .profile-photo {
   width: 160px;
@@ -308,26 +323,12 @@ footer {
   nav li {
     margin: 12px 0;
   }
+  
 }
+
 
 #animal-animation {
   width: 150px;       /* ubah sesuai ukuran animasi */
   height: 150px;
   margin: 20px auto;  /* agar animasi berada di tengah bawah teks */
-}
-#snake-animation {
-  width: 180px;
-  height: 180px;
-  margin: 0 auto;
-  position: relative;
-  top: 10px;
-}
-
-#hand-animation {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-
+ }
