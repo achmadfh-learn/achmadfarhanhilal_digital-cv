@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CV – Achmad Farhan Hilal</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
 </head>
 <body>
   <!-- === NAVBAR === -->
@@ -31,6 +32,7 @@
       <img src="img/profile.png" alt="Profile Photo" class="profile-photo">
       <div class="hero-text">
         <h1>👋 Welcome to My Digital CV</h1>
+        <div id="animal-animation"></div>
         <p>Hi! I'm <strong>Achmad Farhan Hilal</strong>, an Informatics Engineering Education student at <br>
         State University of Jakarta</p>
         <a href="#personal" class="hero-btn">Explore My CV ↓</a>
@@ -76,8 +78,18 @@
     <p>© 2025 Achmad Farhan Hilal — All rights reserved</p>
   </footer>
 
-  <!-- === SCRIPT === -->
+  <!-- === ANIMASI WELCOME === -->
   <script src="script.js"></script>
+  <script>
+  lottie.loadAnimation({
+    container: document.getElementById('animal-animation'), // ID div-nya
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'animation/welcomeanimation.json' // arahkan ke file JSON kamu
+  });
+</script>
+
   <script>
   const toggle = document.getElementById("nav-toggle");
   const menu = document.getElementById("nav-menu");

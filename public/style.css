@@ -309,3 +309,9 @@ footer {
     margin: 12px 0;
   }
 }
+
+#animal-animation {
+  width: 150px;       /* ubah sesuai ukuran animasi */
+  height: 150px;
+  margin: 20px auto;  /* agar animasi berada di tengah bawah teks */
+}
