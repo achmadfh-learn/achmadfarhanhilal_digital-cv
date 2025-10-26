@@ -127,6 +127,11 @@ nav a:hover {
   background-color: #2b6cb0;
   color: #eaf4ff;
 }
+nav a[href*="portfolio"]:hover {
+  background-color: #00b4d8;
+  color: #fff;
+}
+
 
 /* === SECTION LAYOUT === */
 section {
