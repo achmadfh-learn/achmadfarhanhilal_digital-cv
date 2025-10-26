@@ -16,23 +16,26 @@
   align-items: center;
   gap: 25px;
   max-width: 800px;
- }
-#hand-animation {
+  }
+
+ #hand-animation {
 width: 80px;
 height: 80px;
 display: inline-block;
 vertical-align: middle;
  }
 
-#snake-animation {
-position: fixed;
-top: 8px; / sejajar vertikal dengan navbar /
-left: 10px; / pojok kiri layar, beri sedikit jarak /
-width: 80px;
-height: 80px;
-z-index: 15;
-pointer-events: none; / agar tidak ganggu klik menu */
- }
+ #snake-animation {
+  position: fixed;
+  top: 8px; /* sejajar vertikal dengan navbar */
+  left: 10px; /* pojok kiri layar, beri sedikit jarak */
+  width: 80px;
+  height: 80px;
+  z-index: 15;
+  pointer-events: none; /* agar tidak ganggu klik menu */
+}
+
+
 .profile-photo {
   width: 160px;
   height: 160px;
