@@ -9,7 +9,10 @@
 <body>
   <!-- === NAVBAR === -->
   <nav id="navbar">
-    <ul>
+  <div class="nav-container">
+    <div class="nav-logo">My CV</div>
+    <button class="nav-toggle" id="nav-toggle">☰</button>
+    <ul id="nav-menu">
       <li><a href="#hero">Home</a></li>
       <li><a href="#personal">Personal Info</a></li>
       <li><a href="#education">Education</a></li>
@@ -18,7 +21,9 @@
       <li><a href="#experience">Experience</a></li>
       <li><a href="#organization">Organization</a></li>
     </ul>
-  </nav>
+  </div>
+</nav>
+
 
   <!-- HERO SECTION -->
   <section id="hero">
@@ -73,6 +78,14 @@
 
   <!-- === SCRIPT === -->
   <script src="script.js"></script>
+  <script>
+  const toggle = document.getElementById("nav-toggle");
+  const menu = document.getElementById("nav-menu");
+
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("show-menu");
+  });
+</script>
 </body>
 </html>
 y
