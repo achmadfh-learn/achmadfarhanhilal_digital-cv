@@ -49,10 +49,10 @@ export default function handler(req, res) {
       { name: "Photography Contest “Koefisien” - Himatika, UIN Syarif Hidayatullah Jakarta", year: "2020", Description: "Favorite Winner in Photography" },
       { name: "National Chess Championship “Polinema Cup 2025” - Politeknik Negeri Malang", year: "2025", Description: "Participant Certificate" },
       { name: "Leadership Training Program – Fakultas Teknik, Universitas Negeri Jakarta", year: "2022", Description: "Participant Certificate" },
-      { name: "Sekolah Prestasi", year: "2022", result: "Participant Certificate" }
+      { name: "Sekolah Prestasi", year: "2022", Description: "Participant Certificate" }
     ],
     skills: [
-      "Networking (Cisco, Packet Tracer)",
+      "Basic Networking",
       "Basic Network Troubleshooting",
       "Basic Computer Hardware Maintenance",
       "Computer Application Operation",

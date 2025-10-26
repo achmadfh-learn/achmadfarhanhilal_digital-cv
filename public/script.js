@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="card">
         <h3>${a.name}</h3>
         <p><b>Year:</b> ${a.year}</p>
-        <p><b>Description:</b> ${a.result}</p>
+        <p><b>Description:</b> ${a.Description}</p>
       </div>
     `).join("")}
   `;
