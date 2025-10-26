@@ -1,5 +1,6 @@
 {
   "name": "portfolio-cv-api",
+  "type": "module",
   "version": "1.0.0",
   "description": "Portfolio and CV website using Node.js API (Vercel deploy)",
   "main": "api/cv.js",
