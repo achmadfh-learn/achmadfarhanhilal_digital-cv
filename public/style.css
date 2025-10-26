@@ -315,3 +315,19 @@ footer {
   height: 150px;
   margin: 20px auto;  /* agar animasi berada di tengah bawah teks */
 }
+#snake-animation {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+
+#hand-animation {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
