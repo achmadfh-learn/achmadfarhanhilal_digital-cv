@@ -25,14 +25,20 @@ display: inline-block;
 vertical-align: middle;
  }
 
- #snake-animation {
+#snake-animation {
   position: fixed;
-  top: 8px; /* sejajar vertikal dengan navbar */
-  left: 10px; /* pojok kiri layar, beri sedikit jarak */
+  top: 8px;
+  left: 10px;
   width: 80px;
   height: 80px;
   z-index: 15;
-  pointer-events: none; /* agar tidak ganggu klik menu */
+  pointer-events: none;
+  /* Tambahkan gambar Anda di sini */
+  background-image: url('animation/snake.json');
+  background-size: contain; /* Agar gambar pas di dalam kotak 80x80 */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* border: 1px solid red;  <-- Hapus komentar ini untuk garis bantu debug */
 }
 
 
