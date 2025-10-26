@@ -18,11 +18,20 @@
   max-width: 800px;
  }
 #hand-animation {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
+width: 60px;
+height: 60px;
+display: inline-block;
+vertical-align: middle;
+ }
+
+ #snake-animation {
+position: fixed;
+top: 10px;
+left: 10px;
+width: 100px;
+height: 100px;
+z-index: 20;
+pointer-events: none;
 }
 
 .profile-photo {
