@@ -8,7 +8,7 @@ export default function handler(req, res) {
       birthDate: "14 November 2003",
       nationality: "Indonesia",
       address: "Bojongsari",
-      city: "Depok, Jawa Barat",
+      city: "Kota Depok,Provinsi Jawa Barat",
       phone: "081297018610",
       email: "farhanhilal.fh@gmail.com",
       social: "@achmad.frr",
