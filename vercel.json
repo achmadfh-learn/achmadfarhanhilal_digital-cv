@@ -5,7 +5,3 @@
       "src": "api/*.js", 
       "use": "@vercel/node" 
     }
-    // Hapus build statis jika Vercel dapat mendeteksinya secara otomatis
-  ]
-  // Hapus semua routes
-}
