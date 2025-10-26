@@ -25,16 +25,14 @@ vertical-align: middle;
  }
 
 #snake-animation {
-position: absolute;
-top: -100px; / posisinya di atas teks tapi di bawah navbar */
-left: 50%;
-transform: translateX(-50%);
-width: 150px;
-height: 150px;
-z-index: 10;
-pointer-events: none;
-}
-
+position: fixed;
+top: 8px; / sejajar vertikal dengan navbar /
+left: 10px; / pojok kiri layar, beri sedikit jarak /
+width: 80px;
+height: 80px;
+z-index: 15;
+pointer-events: none; / agar tidak ganggu klik menu */
+ }
 .profile-photo {
   width: 160px;
   height: 160px;
